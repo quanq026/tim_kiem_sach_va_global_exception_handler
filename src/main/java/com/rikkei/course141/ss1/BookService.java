@@ -40,6 +40,11 @@ public class BookService {
         return bookRepository.save(book);
     }
 
+    public Book findById(Long id) {
+        return bookRepository.findById(id)
+            .orElseThrow(() -> new ResourceNotFoundException("Không tìm thấy sách id=" + id));
+    }
+
     public List<Book> searchBooks(String keyword) {
         return bookRepository.findByTitleContainingIgnoreCase(keyword);
     }

@@ -1,6 +1,7 @@
 com\rikkei\course141\ss1\ResourceNotFoundException.class
 com\rikkei\course141\ss1\BookRepository.class
 com\rikkei\course141\ss1\BorrowCreateDTO.class
+com\rikkei\course141\ss1\ErrorResponse$ErrorResponseBuilder.class
 com\rikkei\course141\ss1\BorrowRecordRepository.class
 com\rikkei\course141\ss1\ReaderService.class
 com\rikkei\course141\ss1\BorrowRecord.class
@@ -17,6 +18,7 @@ com\rikkei\course141\ss1\BorrowRecord$BorrowRecordBuilder.class
 com\rikkei\course141\ss1\Session08SS1Application.class
 com\rikkei\course141\ss1\BookController.class
 com\rikkei\course141\ss1\Book.class
+com\rikkei\course141\ss1\ErrorResponse.class
 com\rikkei\course141\ss1\Reader$ReaderBuilder.class
 com\rikkei\course141\ss1\GlobalExceptionHandler.class
 com\rikkei\course141\ss1\BookUpdateStockDTO.class
